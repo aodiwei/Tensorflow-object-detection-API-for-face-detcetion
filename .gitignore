@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+/pre_train_ckp/
+/output/
+/dataset/
+/data_process/
+/.idea
