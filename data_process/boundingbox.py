@@ -31,6 +31,7 @@ def boundingbox(img, boxes, box_type):
         else:  # VOC
             x_min, y_min, x_max, y_max = x, y, w, h
         cv2.rectangle(image, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
+        cv2.putText(image, 'face', (x_min, y_min - 5), cv2.FONT_HERSHEY_COMPLEX, 0.8, (255, 255, 0))
 
     cv2.namedWindow('bound', cv2.WINDOW_NORMAL)
     cv2.resizeWindow('bound', width, height)
@@ -127,5 +128,5 @@ def show_data_wider(filename='17_Ceremony_Ceremony_17_325.jpg'):
 
 
 if __name__ == '__main__':
-    # show_data_wider()
-    show_data_tfrecord('../dataset/wider_face_train_no_resize.record')
+    show_data_wider()
+    # show_data_tfrecord('../dataset/wider_face_train_no_resize.record')
