@@ -53,7 +53,8 @@ more details please read detection_cv.py
 tf offical detection example in detection.py
 
 result sample:
-[sample]:/data_process/testpic_box.jpg "test"
+
+![](/data_process/testpic_box.jpg "test")
 
 ### 9. Citation
 
