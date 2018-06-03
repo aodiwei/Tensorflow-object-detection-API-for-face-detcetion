@@ -50,6 +50,7 @@ simply
 python3 detection_cv.py --input=your_img.jpg
 ```
 more details please read detection_cv.py
+
 tf offical detection example in detection.py
 
 result sample:
@@ -63,3 +64,6 @@ result sample:
 	Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 	Title = {WIDER FACE: A Face Detection Benchmark},
 	Year = {2016}}
+	
+	https://github.com/priya-dwivedi/Deep-Learning/tree/master/tensorflow_toy_detector
+	https://github.com/yeephycho/widerface-to-tfrecord
